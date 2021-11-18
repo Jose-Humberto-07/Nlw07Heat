@@ -16,11 +16,11 @@ class AuthenticateUserService {
         const response = await axios.post(url, null, {
             params: {
                 client_id: process.env.GITHUB_CLIENT_ID,
-                clien_secret: process.env.GITHUB_CLIENT_SECRET,
+                client_secret: process.env.GITHUB_CLIENT_SECRETS,
                 code,
             },
             headers: {
-                "Aceept": "application/joson"
+                "Accept": "application/json"
             }
         })
 
