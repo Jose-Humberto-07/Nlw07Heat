@@ -21,6 +21,6 @@ app.get("/signin/callback", (request, response) => {
 })
 
 app.listen(4000, () => {
-    console.log("Servidor rodanddo na porta 400: http://localhost:4000");
+    console.log("Servidor rodanddo na porta 4000: http://localhost:4000");
 })
 
